@@ -1,0 +1,133 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #36454F;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    position: relative;
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-color: #EAF1ED;
+    min-height: 100vh; /* Ensure that the background covers the entire viewport */
+    padding: 20px; /* Add padding to create space for the text */
+    opacity: 1;
+    margin: 10px;
+}
+    h1{
+        font-size: 100px;
+        text-align: center;
+        margin: 0;
+        margin-top: -50px; !important
+        margin-bottom: 15px;
+        color: #36454F;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        padding-top: -10px
+    }
+    .first-letter {
+        text-transform: uppercase;
+        font-size: larger; /* Adjust the font size of the first letters */
+    }
+    h3{
+        font-size: 30px;
+        background-color: #c7d7df;
+        padding: 25px 0;
+        margin: 0 auto;
+        margin-bottom: -35px;
+        margin-top: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    h3 span {
+        display: inline-block; /* Make the spans behave as blocks */
+        margin: 20px 50px auto; /* Center the spans horizontally */
+        max-width: 90%; /* Adjust the maximum width of the spans */
+    }
+    h6{
+        font-weight: 500;
+        font-size: 18px;
+        margin: 5px;
+        line-height: 1.6;
+        letter-spacing: 0.05em;
+        padding: 25px 0;
+        width: 100%;
+        box-sizing: border-box;
+        
+    }
+    h6 span {
+        display: inline-block; /* Make the spans behave as blocks */
+        margin: 20px 50px auto; /* Center the spans horizontally */
+        max-width: 80%; /* Adjust the maximum width of the spans */
+    }
+    h1, p {
+        position: relative;
+        z-index: 1; /* Set z-index higher than background image */
+    }
+    a{
+        color: #36454F;
+        font-weight: 500;
+        text-decoration: none;
+        margin-right: 0px;
+    }
+    
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    /*hyperlink boxes*/
+    .link-container{
+        border: 2px solid #36454F;
+        border-radius: 5px;
+        margin: 0 5px;
+        display: inline-flex;
+        padding: 0px 40px;
+        text-decoration: none;
+        font-weight: 300;
+        color: #4e728d;
+        align-items: center;
+        justify-content: center;
+        background-color: #EAF1ED;
+        font-size: 18px;
+        
+    }
+    /*hyperlink banner*/
+    .background-container {
+        padding: 25px 0;
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    img {
+        max-width: 100%; /* Adjust as needed */
+        height: auto; /* Maintain aspect ratio */
+        
+        margin-bottom: 20px;
+    }
+    /*overall resume links*/
+    .resume-container{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: -20px;
+    }
+    /*text of the resume links*/
+    .little-container{
+        display: inline;
+    }
+    iframe{
+        margin-top: 100px;
+    }
+    .iframe-container{
+        display: flex; !important
+        justify-content: center; !important
+        margin: 50px auto 0;
+        padding: 20px;
+    }
+    
